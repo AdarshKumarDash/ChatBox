@@ -1,0 +1,50 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    color: white;
+}
+
+body {
+    background-image: linear-gradient(to right top, #33a0f1, #2591d9, #1882c1, #0a73aa, #006494);
+}
+
+.header {
+    color: white;
+    margin-top: 80px;
+    font-size: 45px;
+    font-family: 'Yeon Sung';
+}
+
+.header img {
+    width: 80px;
+}
+
+.login_div {
+    float: none;
+    background-color: black;
+    color: whitesmoke;
+    background-image: linear-gradient(180deg, rgba(10,10,10,1) 25%, rgba(27,26,26,1) 62%, rgba(59,58,56,1) 100%);
+    border-radius: 8px;
+    padding-top: 3px;
+    padding-bottom: 8px;
+}
+
+#output {
+    background-color: rgba(255, 255, 255, 0.8);
+    float: none;
+    border-radius: 15px;
+    padding: 10px;
+    width: 80%;
+}
+
+.room_name {
+    cursor: pointer; 
+    font-size: 20px; 
+    color: black;
+}
+.input_div_message_page {
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+	background: rgba(255, 255, 255, 0.8);
+}
